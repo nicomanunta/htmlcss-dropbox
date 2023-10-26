@@ -238,5 +238,42 @@ body{
     background-color: red;
     width: calc(100% / 2);
 }
-/* MAIN 7 UGUALE AL 5 con una colonna in più */
+/* MAIN 7 UGUALE AL 3  */
+.container-main7{
+    margin: 0 auto;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+}
+.row-main7{
+                                height: 200px;
+                                background-color: dodgerblue;
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+}
+.col1-main7{
+                                height: 100%;
+                                background-color: rebeccapurple;
+    width: 65%;
+}
+.col2-main7{
+                                height: 100%;
+                                background-color:chocolate;
+    width: 35%;
+}
+/* MAIN NUMERO 8 */
+.container-main8{
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.row-main8{
 
+                                height: 300px;
+                                background-color: aquamarine;
+    width: 100%;
+    max-width: 900px;
+}
+/* FOOTER NUMERO 1 */
