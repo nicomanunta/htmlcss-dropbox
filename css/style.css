@@ -10,11 +10,14 @@ body{
 .container-header{
     max-width: 2000px;
     margin: 0 auto;
+    position: relative;
 }
 .row-header{
     display: flex;
     align-items: center;
     width: 100%;
+    position: fixed;
+    background-color: white;
                                 
     
 }
