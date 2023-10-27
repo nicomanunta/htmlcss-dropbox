@@ -407,15 +407,30 @@ h2{
     max-width: 1000px;
     width: 100%;
     display: flex;
-                                height: 400px;
+    color: white;
+    
+                                
                                 
 
 }
 .col-footer1{
     width: calc(100% / 5);
-    border: 1px solid white;
-                                height: 100%;
+    
+    padding: 70px 0px;
+                                
 }
+.titoli-footer{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.elenco-footer{
+    list-style: none;
+}
+.lista-footer{
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
 /* FOOTER NUMERO 2 */
 .container-footer2{
     margin: 0 auto;
@@ -425,7 +440,7 @@ h2{
     background-color: black;
 }
 .row-footer2{
-                                height: 50px;
+                                
     
     width: 100%;
     max-width: 1000px;
@@ -434,6 +449,15 @@ h2{
 }
 .col-footer2{
     height: 100%;
-    background-color: pink;
+    font-size: 12px;
     width: 100%; 
+    color: rgb(99, 99, 99);
+}
+.content-footer{
+    padding: 15px 0px;
+}
+.linea-footer{
+    width: 8%;
+    border: 1px solid rgb(99, 99, 99);
+   
 }
