@@ -18,6 +18,7 @@ body{
     width: 100%;
     position: fixed;
     background-color: white;
+    z-index: 1;
                                 
     
 }
@@ -34,13 +35,13 @@ body{
 .col-2{
     justify-content: end;
 }
-li{
+.li-header{
     display: inline-block;
     vertical-align: middle;
     padding: 20px 10px;
 
 }
-a{
+.link-header{
     color: rgba(188,188,188,255);
     text-decoration: none;
     
@@ -130,8 +131,8 @@ a{
     max-width: 2000px;
     display: flex;
     justify-content: center;
-                                background-color: green;
-                                height: 1000px;
+                                
+                                ;
 }
 .row1-main2{
     max-width: 900px;
@@ -140,39 +141,106 @@ a{
     align-items: center;
     flex-direction: column;
                                 
-                                background-color: orange;
+                                
 }
 .col1-main2{
     width: 100%;
-                                background-color: yellow;
-                                height: 10%;
+    padding: 30px 0px;
+    line-height: 50px;
+                                
 }
+h2{
+    font-size: 30px;
+}
+.radio-button{
+    color: rgb(99, 99, 99);
+}
+.padding-right{
+    padding-right: 30px;
+}
+
 .col2-main2{
     width: 100%;
                                 height: 70%;
 }
+
 .row-col{
     display: flex;
     gap: 20px;
-                                background-color: blueviolet;
-                                height: 100%;
+                                
     width: 100%;
 
 }
 .col{
-    border: 1px solid white;
+    
     width: calc(100% / 3 );
-    
-    
-                                background-color: darkred;
-                                height: 100%;
+                                 
+}
+
+.offerte{
+    text-align: center;
+    padding: 10px 0px;
+    border: 1px solid rgb(168, 168, 168);
+}
+.colonna{
+    min-height: 1300px;
+    border: 1px solid rgb(168, 168, 168);
+}
+
+.costo{
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.periodo{
+    color: rgb(99, 99, 99);
+    padding-bottom: 40px;
+    font-size: 13px;
+}
+.parte-1, .parte-3, .parte-4{
+    padding: 20px;
+}
+.parte-2{
+    font-size: 15px;
+    padding: 0px 20px;
+}
+.oppure{
+    padding: 40px 0px;
+}
+
+
+.acquista-ora{
+    color: rgba(0,97,255,255);
+}
+.gratis30, .contattaci{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    border: none;
+    padding: 10px 45px
+}
+.contattaci{
+    padding: 10px 92px;
+}
+
+.linea-orizzontale1{
+    max-width: 2000px;
+    width: 20%;
+    padding: 0px 20px;
+    color: rgb(99, 99, 99);
+   
+}
+.linea{
+
+}
+.padding-list{
+    padding: 20px 0px;
 }
 
 
 .col3-main2{
+    
     background-color: yellow;
     width: 100%;
-    height: 20%;
+                                    height: 20%;
 }
 /* MAIN NUMERO 3*/
 .container-main3{
