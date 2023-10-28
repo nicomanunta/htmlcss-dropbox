@@ -151,6 +151,7 @@ body{
 }
 h2{
     font-size: 30px;
+    padding-top: 50px;
 }
 .radio-button{
     color: rgb(99, 99, 99);
@@ -242,7 +243,7 @@ h2{
     width: 100%;
     position: relative;
     padding: 40px 0px;
-                                    height: 20%;
+                                    
 }
 .parte-5{
     padding: 20px 20px;
@@ -280,23 +281,38 @@ h2{
     max-width: 2000px;
     display: flex;
     justify-content: center;
+    padding-top: 70px;
 }
 .row-main3{
-                                height: 400px;
-                                background-color: dodgerblue;
+                                
     width: 100%;
     max-width: 900px;
     display: flex;
 }
 .col1-main3{
-                                height: 100%;
-                                background-color: indigo;
+                                
     width: 65%;
 }
+.partner{
+    width: 100%;
+}
 .col2-main3{
-                                height: 100%;
-                                background-color:yellowgreen;
+                                
     width: 35%;
+    padding: 0px 30px;
+}
+.titolo-partner{
+    font-size: 21px;
+    padding-top: 80px;
+}
+.paragrafo-partner{
+    padding: 20px 0px;
+    font-size: 14px;
+}
+.button-partner{
+    padding: 8px 15px;
+    background-color:  white;
+    border: 1px solid gray;
 }
 /* MAIN NUMERO 4 */
 .container-main4{
