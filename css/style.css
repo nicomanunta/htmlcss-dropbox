@@ -161,7 +161,7 @@ h2{
 
 .col2-main2{
     width: 100%;
-                                height: 70%;
+                               
 }
 
 .row-col{
@@ -180,11 +180,11 @@ h2{
 .offerte{
     text-align: center;
     padding: 10px 0px;
-    border: 1px solid rgb(168, 168, 168);
+    border: 1px solid rgb(209, 209, 209);
 }
 .colonna{
-    min-height: 1300px;
-    border: 1px solid rgb(168, 168, 168);
+    min-height: 1050px;
+    border: 1px solid rgb(209, 209, 209);
 }
 
 .costo{
@@ -225,7 +225,7 @@ h2{
     max-width: 2000px;
     width: 20%;
     padding: 0px 20px;
-    color: rgb(99, 99, 99);
+    color: rgb(209, 209, 209);
    
 }
 .linea{
@@ -238,10 +238,42 @@ h2{
 
 .col3-main2{
     
-    background-color: yellow;
+    
     width: 100%;
+    position: relative;
+    padding: 40px 0px;
                                     height: 20%;
 }
+.parte-5{
+    padding: 20px 20px;
+    border: 1px solid rgb(209, 209, 209); 
+}
+.enterprise{
+    padding-top: 12px;
+
+    
+}
+.sotto-enterprise{
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    
+}
+.soluzioni{
+    font-size: 14px;
+}
+.ufficio-vendite{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    position: absolute;
+    top: 116px;
+    right: 20px;
+    z-index: 2;
+}
+
+
 /* MAIN NUMERO 3*/
 .container-main3{
     margin: 0 auto;
