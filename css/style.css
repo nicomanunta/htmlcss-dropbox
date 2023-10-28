@@ -366,23 +366,32 @@ body{
     max-width: 2000px;
     display: flex;
     justify-content: center;
+    padding-left: 10px;
 }
 .row-main5{
-                                height: 200px;
+                                
     
     width: 100%;
     max-width: 900px;
     
 }
 .col-main5{
-    height: 100%;
-    background-color: pink;
+    
+    
     width: 65%;
 }
+.titolo-main5{
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.link-main5{
+    color: rgba(0,97,255,255)}
+
 /* MAIN NUMERO 6 */
 .container-main6{
     max-width: 2000px;
     margin: 0 auto;
+    padding-top: 100px
 }
 .row-main6{
     display: flex;
@@ -424,23 +433,38 @@ body{
     max-width: 2000px;
     display: flex;
     justify-content: center;
+    background-color: rgba(180,208,231,255);
 }
 .row-main7{
-                                height: 200px;
-                                background-color: dodgerblue;
+                                
     width: 100%;
     max-width: 900px;
     display: flex;
+    
 }
 .col1-main7{
-                                height: 100%;
-                                background-color: rebeccapurple;
-    width: 65%;
+                                
+    width: 55%;
+    display: flex;
+    align-items: center;
 }
-.col2-main7{
-                                height: 100%;
-                                background-color:chocolate;
-    width: 35%;
+.titolo-main7{
+    font-size: 30px;
+    padding: 100px 10px;
+    color: rgba(97,8,43,255);
+}
+.col2-main7{                    
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.button-main7{
+    padding: 8px 35px;
+    background-color: white;
+    border: none;
+    position: relative;
+    bottom: 20px;
 }
 /* MAIN NUMERO 8 */
 .container-main8{
