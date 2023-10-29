@@ -91,7 +91,7 @@ body{
 .col2-main1{
                                 
     width: 30%;
-    color: rgb(99, 99, 99);
+    color: rgb(60, 60, 60);
     font-size: 14px
                                 
 }
@@ -308,11 +308,13 @@ body{
 .paragrafo-partner{
     padding: 20px 0px;
     font-size: 14px;
+    color: rgb(60, 60, 60);
 }
 .button-partner{
     padding: 8px 15px;
     background-color:  white;
     border: 1px solid gray;
+    color: rgb(60, 60, 60);
 }
 /* MAIN NUMERO 4 */
 .container-main4{
@@ -358,6 +360,7 @@ body{
 .paragrafo-img6{
     padding: 20px 0px;
     font-size: 14px;
+    color: rgb(60, 60, 60);
 }
 
 /* MAIN NUMERO 5 */
@@ -397,36 +400,97 @@ body{
     display: flex;
     
     width: 100%;
-                                background-color: rgb(184, 78, 78);
-                                height: 400px;
+                                
 }
 .col-main6{
-                                background-color: grey;
-                                height: 100%;
+                          
     width: calc(100% / 3);
     border: 1px solid white;
-    
-
 }
+.col2-main6{
+    background-color: rgba(245,245,245,255);
+}
+.colonna-centrale{
+    padding: 50px 30px;
+    
+}
+.img-colonna-centrale{
+    width: 50%;
+    padding-bottom: 30px;
+}
+.linea-colonna-centrale{
+    width: 20%;
+}
+.paragrafo-colonna-centrale{
+    padding: 30px 0px;
+    
+    
+}
+.span-colonna-centrale, .paragrafo-colonna-centrale{
+    font-size: 13px;
+    color: rgb(60, 60, 60);
+}
+
 
 
 /* SCACCHIERA */
 .row-col-main6{
-                                height: 100%;
+                                
     
 
 }
 .col-scacchiera{
-    height: 100%;
+   
     display: flex;
     flex-wrap: wrap;
+    min-height: 460px; 
    
 }
 .square{ 
-    border: 1px solid black;
-    background-color: red;
     width: calc(100% / 2);
+    position: relative;
+    
 }
+.img-scacchiera{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert();
+}
+.square1{
+    background-color:rgba(162,211,155,255) ;
+    border: 8px solid rgba(209,233,205,255);
+}
+.square2{
+    background-color:rgba(97,8,43,255) ;
+    
+}
+.square3{
+    background-color:rgba(0,147,206,255) ;
+    
+}
+.square4{
+    background-color:rgba(255,28,28,255) ;
+    
+}
+.square5{
+    background-color:rgba(213,0,31,255) ;
+    
+}
+.square6{
+    background-color:rgba(180,208,231,255) ;
+    
+}
+.square7{
+    background-color:rgba(13,36,129,255) ;
+}
+.square8{
+    background-color:rgba(255,216,48,255) ;
+    
+}
+
 /* MAIN 7 UGUALE AL 3  */
 .container-main7{
     margin: 0 auto;
