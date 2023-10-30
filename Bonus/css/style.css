@@ -7,8 +7,16 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 /* HEADER */
+header{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    background-color: white;
+
+
+}
 .container-header{
-    max-width: 2000px;
+    width: 100%;
     margin: 0 auto;
     
 }
@@ -16,10 +24,9 @@ body{
     display: flex;
     align-items: center;
     width: 100%;
-    position: fixed;
+    
     background-color: white;
-    z-index: 3;
-                                
+                    
     
 }
 .col-header{
@@ -63,7 +70,7 @@ body{
    font-size: 62px;
 }
 .container-main1{
-    max-width: 2000px;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -131,7 +138,7 @@ body{
 /* MAIN NUMERO 2 */
 .container-main2{
     margin: 0 auto;
-    max-width: 2000px;
+    width: 100%;
     display: flex;
     justify-content: center;
                                 
@@ -226,7 +233,7 @@ body{
 }
 
 .linea-orizzontale1{
-    max-width: 2000px;
+    width: 100%;
     width: 20%;
     padding: 0px 20px;
     color: rgb(209, 209, 209);
@@ -281,7 +288,7 @@ body{
 /* MAIN NUMERO 3*/
 .container-main3{
     margin: 0 auto;
-    max-width: 2000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-top: 70px;
@@ -321,7 +328,7 @@ body{
 }
 /* MAIN NUMERO 4 */
 .container-main4{
-    max-width: 2000px;
+    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -369,7 +376,7 @@ body{
 /* MAIN NUMERO 5 */
 .container-main5{
     margin: 0 auto;
-    max-width: 2000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     padding-left: 10px;
@@ -395,7 +402,7 @@ body{
 
 /* MAIN NUMERO 6 */
 .container-main6{
-    max-width: 2000px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 100px
 }
@@ -412,6 +419,8 @@ body{
 }
 .col2-main6{
     background-color: rgba(245,245,245,255);
+    height: calc(100vw / 6 * 2);
+    overflow: scroll;
 }
 .colonna-centrale{
     padding: 50px 30px;
@@ -446,12 +455,13 @@ body{
    
     display: flex;
     flex-wrap: wrap;
-    min-height: 460px; 
+    
    
 }
 .square{ 
     width: calc(100% / 2);
     position: relative;
+    height: calc(100vw / 6 );
     
 }
 .img-scacchiera{
@@ -521,7 +531,7 @@ body{
 /* MAIN 7 UGUALE AL 3  */
 .container-main7{
     margin: 0 auto;
-    max-width: 2000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: rgba(180,208,231,255);
@@ -559,7 +569,7 @@ body{
 }
 /* MAIN NUMERO 8 */
 .container-main8{
-    max-width: 2000px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
@@ -586,7 +596,7 @@ body{
 
 /* FOOTER NUMERO 1 */
 .container-footer1{
-    max-width: 2000px;
+    width: 100%;
     margin: 0 auto;
                                 background-color: black;
     display: flex;
@@ -625,7 +635,7 @@ body{
 /* FOOTER NUMERO 2 */
 .container-footer2{
     margin: 0 auto;
-    max-width: 2000px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-color: black;
@@ -639,7 +649,7 @@ body{
     
 }
 .col-footer2{
-    height: 100%;
+   
     font-size: 12px;
     width: 100%; 
     color: rgb(99, 99, 99);
@@ -679,8 +689,8 @@ body{
 }
 .link-sottomenu:hover{
     
-    background-color: #000033;
-    color: #FFFFFF;
+    background-color: #040035;
+    color: white;
 }
 .li-header:hover  .ul-sottomenu{
     display: block;
@@ -689,7 +699,6 @@ body{
     width:150px;
     padding: 0;
     margin: 0 0 0 -1px;
-    
     background: white;
 }
 
