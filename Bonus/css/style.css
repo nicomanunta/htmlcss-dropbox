@@ -1,0 +1,630 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* HEADER */
+.container-header{
+    max-width: 2000px;
+    margin: 0 auto;
+    
+}
+.row-header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    z-index: 3;
+                                
+    
+}
+.col-header{
+                                
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+
+}
+.col-2{
+    justify-content: end;
+}
+.li-header{
+    display: inline-block;
+    vertical-align: middle;
+    padding: 20px 10px;
+
+}
+.link-header{
+    color: rgba(188,188,188,255);
+    text-decoration: none;
+    
+    
+}
+.inizia{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    border: none;
+    padding: 5px 15px;
+}
+.logo-small{
+    width: 100%;
+}
+/* MAIN NUMERO 1 */
+
+.h1-main1{                     
+   color: rgba(0,0,0,255);
+   font-size: 62px;
+}
+.container-main1{
+    max-width: 2000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: end;
+    background-color: rgba(180,208,231,255);
+                               
+}
+.row1-main1{
+   
+    width: 100%;
+    max-width: 1000px;
+    padding-top: 100px;
+    
+}
+
+.row2-main1{
+    display: flex;
+    max-width: 1000px;
+    width: 100%;
+    
+    
+    
+                                
+}
+.col2-main1{
+                                
+    width: 30%;
+    color: rgb(60, 60, 60);
+    font-size: 14px;
+    padding-top: 50px;
+                                
+}
+.paragrafo1{
+    padding-bottom: 30px;
+}
+.prova{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    border: none;
+    padding: 10px 25px
+}
+
+.padding20{
+    padding: 40px 0px;
+}
+
+.freccia{
+    font-size: 40px;
+    position: relative;
+    top: 30px;
+    color: black;
+}
+
+
+.col3-main1{
+                                
+    width: 70%;
+                                
+}
+.jumbo{
+    width: 100%;
+    position: relative;
+    top: 50px;
+}
+/* MAIN NUMERO 2 */
+.container-main2{
+    margin: 0 auto;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+                                
+                                ;
+}
+.row1-main2{
+    max-width: 900px;
+    width: 100%;
+    display:  flex;
+    align-items: center;
+    flex-direction: column;
+                                
+                                
+}
+.col1-main2{
+    width: 100%;
+    padding: 30px 0px;
+    line-height: 50px;
+                                
+}
+.titolo-main2{
+    font-size: 30px;
+    padding-top: 50px;
+}
+.radio-button{
+    color: rgb(99, 99, 99);
+}
+.padding-right{
+    padding-right: 30px;
+}
+
+.col2-main2{
+    width: 100%;
+                               
+}
+
+.row-col{
+    display: flex;
+    gap: 20px;
+                                
+    width: 100%;
+
+}
+.col{
+    
+    width: calc(100% / 3 );
+                                 
+}
+
+.offerte{
+    text-align: center;
+    padding: 10px 0px;
+    border: 1px solid rgb(209, 209, 209);
+}
+.colonna{
+    min-height: 1050px;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+.costo{
+    font-weight: bold;
+    padding: 15px 0px;
+}
+.periodo{
+    color: rgb(99, 99, 99);
+    padding-bottom: 40px;
+    font-size: 13px;
+}
+.parte-1, .parte-3, .parte-4{
+    padding: 20px;
+}
+.parte-2{
+    font-size: 15px;
+    padding: 0px 20px;
+}
+.oppure{
+    padding: 40px 0px;
+}
+
+
+.acquista-ora{
+    color: rgba(0,97,255,255);
+}
+.gratis30, .contattaci{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    border: none;
+    padding: 10px 45px
+}
+.contattaci{
+    padding: 10px 92px;
+}
+
+.linea-orizzontale1{
+    max-width: 2000px;
+    width: 20%;
+    padding: 0px 20px;
+    color: rgb(209, 209, 209);
+   
+}
+.linea{
+
+}
+.padding-list{
+    padding: 20px 0px;
+}
+
+
+.col3-main2{
+    
+    
+    width: 100%;
+    position: relative;
+    padding: 40px 0px;
+                                    
+}
+.parte-5{
+    padding: 20px 20px;
+    border: 1px solid rgb(209, 209, 209); 
+}
+.enterprise{
+    padding-top: 12px;
+
+    
+}
+.sotto-enterprise{
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-weight: bold;
+    
+}
+.soluzioni{
+    font-size: 14px;
+}
+.ufficio-vendite{
+    background-color: rgba(0,97,255,255);
+    color: white;
+    border: none;
+    padding: 10px 35px;
+    position: absolute;
+    top: 116px;
+    right: 20px;
+    z-index: 2;
+}
+
+
+/* MAIN NUMERO 3*/
+.container-main3{
+    margin: 0 auto;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+.row-main3{
+                                
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+}
+.col1-main3{
+                                
+    width: 65%;
+}
+.partner{
+    width: 100%;
+}
+.col2-main3{
+                                
+    width: 35%;
+    padding: 0px 30px;
+}
+.titolo-partner{
+    font-size: 21px;
+    padding-top: 80px;
+}
+.paragrafo-partner{
+    padding: 20px 0px;
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+}
+.button-partner{
+    padding: 8px 15px;
+    background-color:  white;
+    border: 1px solid gray;
+    color: rgb(60, 60, 60);
+}
+/* MAIN NUMERO 4 */
+.container-main4{
+    max-width: 2000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 0px;
+                               
+}
+.row1-main4{
+   
+    width: 100%;
+    max-width: 900px;
+    
+}
+.titolo-main4{
+    font-size: 35px;
+    padding-bottom: 40px;
+
+}
+.row2-main4{
+   
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+
+}
+.col2-main4{
+    width: calc((100% / 3) - (40px / 3));
+                                
+}
+.img6{
+    width: 100%;
+}
+.content-img6{
+    padding: 20px 10px;
+}
+.paragrafo-img6{
+    padding: 20px 0px;
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+}
+
+/* MAIN NUMERO 5 */
+.container-main5{
+    margin: 0 auto;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    padding-left: 10px;
+}
+.row-main5{
+                                
+    
+    width: 100%;
+    max-width: 900px;
+    
+}
+.col-main5{
+    
+    
+    width: 65%;
+}
+.titolo-main5{
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+.link-main5{
+    color: rgba(0,97,255,255)}
+
+/* MAIN NUMERO 6 */
+.container-main6{
+    max-width: 2000px;
+    margin: 0 auto;
+    padding-top: 100px
+}
+.row-main6{
+    display: flex;
+    
+    width: 100%;
+                                
+}
+.col-main6{
+                          
+    width: calc(100% / 3);
+    border: 1px solid white;
+}
+.col2-main6{
+    background-color: rgba(245,245,245,255);
+}
+.colonna-centrale{
+    padding: 50px 30px;
+    
+}
+.img-colonna-centrale{
+    width: 50%;
+    padding-bottom: 30px;
+}
+.linea-colonna-centrale{
+    width: 20%;
+}
+.paragrafo-colonna-centrale{
+    padding: 30px 0px;
+    
+    
+}
+.span-colonna-centrale, .paragrafo-colonna-centrale{
+    font-size: 13px;
+    color: rgb(60, 60, 60);
+}
+
+
+
+/* SCACCHIERA */
+.row-col-main6{
+                                
+    
+
+}
+.col-scacchiera{
+   
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 460px; 
+   
+}
+.square{ 
+    width: calc(100% / 2);
+    position: relative;
+    
+}
+.img-scacchiera{
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: invert(100%);
+}
+.square1{
+    background-color:rgba(162,211,155,255) ;
+    border: 8px solid rgba(209,233,205,255);
+}
+.square2{
+    background-color:rgba(97,8,43,255) ;
+    
+}
+.square3{
+    background-color:rgba(0,147,206,255) ;
+    
+}
+.square4{
+    background-color:rgba(255,28,28,255) ;
+    
+}
+.square5{
+    background-color:rgba(213,0,31,255) ;
+    
+}
+.square6{
+    background-color:rgba(180,208,231,255) ;
+    
+}
+.square7{
+    background-color:rgba(13,36,129,255) ;
+}
+.square8{
+    background-color:rgba(255,216,48,255) ;
+    
+}
+
+/* MAIN 7 UGUALE AL 3  */
+.container-main7{
+    margin: 0 auto;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(180,208,231,255);
+}
+.row-main7{
+                                
+    width: 100%;
+    max-width: 900px;
+    display: flex;
+    
+}
+.col1-main7{
+                                
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.titolo-main7{
+    font-size: 30px;
+    padding: 100px 10px;
+    color: rgba(97,8,43,255);
+}
+.col2-main7{                    
+    width: 45%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.button-main7{
+    padding: 8px 35px;
+    background-color: white;
+    border: none;
+    position: relative;
+    bottom: 20px;
+}
+/* MAIN NUMERO 8 */
+.container-main8{
+    max-width: 2000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.row-main8{
+    width: 100%;
+    max-width: 900px;
+    padding: 100px 0px;
+}
+.col-main8{
+    width: 100%;
+}
+.titolo-main8{
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+.lista-main8{
+    list-style: none;
+    padding: 30px 0px;
+}
+.freccetta{
+    padding-left: 250px;
+}
+
+/* FOOTER NUMERO 1 */
+.container-footer1{
+    max-width: 2000px;
+    margin: 0 auto;
+                                background-color: black;
+    display: flex;
+    justify-content: center;
+
+
+}
+.row-footer1{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    color: white;
+    
+                                
+                                
+
+}
+.col-footer1{
+    width: calc(100% / 5);
+    
+    padding: 70px 0px;
+                                
+}
+.titoli-footer{
+    font-size: 25px;
+    padding: 20px 0;
+}
+.elenco-footer{
+    list-style: none;
+}
+.lista-footer{
+    padding: 10px 0px;
+    font-size: 12px;
+}
+
+/* FOOTER NUMERO 2 */
+.container-footer2{
+    margin: 0 auto;
+    max-width: 2000px;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.row-footer2{
+                                
+    
+    width: 100%;
+    max-width: 1000px;
+    display: flex;
+    
+}
+.col-footer2{
+    height: 100%;
+    font-size: 12px;
+    width: 100%; 
+    color: rgb(99, 99, 99);
+}
+.content-footer{
+    padding: 15px 0px;
+}
+.linea-footer{
+    width: 8%;
+    border: 1px solid rgb(99, 99, 99);
+   
+}
