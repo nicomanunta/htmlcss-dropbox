@@ -466,32 +466,56 @@ body{
     background-color:rgba(162,211,155,255) ;
     border: 8px solid rgba(209,233,205,255);
 }
+.square1:hover{
+    background-color: rgb(103, 161, 103);
+}
 .square2{
     background-color:rgba(97,8,43,255) ;
     
+}
+.square2:hover{
+    background-color: rgb(126, 39, 39);
 }
 .square3{
     background-color:rgba(0,147,206,255) ;
     
 }
+.square3:hover{
+    background-color: rgb(42, 107, 150);
+}
 .square4{
     background-color:rgba(255,28,28,255) ;
     
+}
+.square4:hover{
+    background-color: rgb(180, 30, 22);
 }
 .square5{
     background-color:rgba(213,0,31,255) ;
     
 }
+.square5:hover{
+    background-color: rgb(135, 17, 17);
+}
 .square6{
     background-color:rgba(180,208,231,255) ;
     
 }
+.square6:hover{
+    background-color: rgb(97, 144, 159);
+}
 .square7{
     background-color:rgba(13,36,129,255) ;
+}
+.square7:hover{
+    background-color: rgb(54, 62, 161);
 }
 .square8{
     background-color:rgba(255,216,48,255) ;
     
+}
+.square8:hover{
+    background-color: rgb(203, 211, 55);
 }
 
 /* MAIN 7 UGUALE AL 3  */
